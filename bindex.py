@@ -58,7 +58,7 @@ def beer_index(image):
             visMatrix[iSecond,iFirst]=theValue
     return np.mean(visMatrix.sum(axis=1)/(numPixObject-1))
     # Two loops iterate over all pair of pixels. 
-    # For every pairs of pixels, the Line function gives the indices of the pixels 
+    # For every pair of pixels, the Line function gives the indices of the pixels 
     # in between.
     # These interimediate pixels are verified: one the one hand, if all of their values 
     # are 1s, then we consider that this pair of pixels are visible and the visMatrix is 
