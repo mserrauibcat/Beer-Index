@@ -42,7 +42,7 @@ def beer_index(image):
     # Obtains the indices of the elements in the image array which are 1s.
     
     numPixObject=theObject.shape[0]
-    # Returns the number of 1s in the image array. 
+    # Returns the number of 1s in the image array (area of the object).
     
     visMatrix=np.zeros((numPixObject,numPixObject))
     # Generating a matrix of 0s. Size: numPixObject x numPixObject. After the complete
