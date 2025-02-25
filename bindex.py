@@ -67,7 +67,8 @@ def beer_index(image):
     # updated with "False". 
     # Once the visMatrix is completed, for each pixel, we determine how many other pixels 
     # it can see or, in other words, its visibility. 
-    # Finally, the BI is obtained as the mean of the visibility values of all individual pixels.
+    # Finally, the BI is obtained as the mean of the visibility values of all individual
+    # pixels divided by area of the object.  
 
 
 
