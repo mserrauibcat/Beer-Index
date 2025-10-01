@@ -6,7 +6,8 @@
 # Description : Computes the BI to evaluate shape convexity.
 # Author      : Miquel Àngel Serra (Science & Code)
 #               Arnau Mir (Science & Code)
-#               Antoni Burguera (Code)
+#               Antoni Burguera (Science & Code)
+#               Oscar Valero (Science & Code)
 ###############################################################################
 
 ###############################################################################
